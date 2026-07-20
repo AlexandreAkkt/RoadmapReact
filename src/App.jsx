@@ -1,9 +1,7 @@
-function App(){
+function App() {
+  const message = " Hello word";
 
-  return(
-    
-
-  )
+  return <h1>/{} </h1>;
 }
 
 export default App;
