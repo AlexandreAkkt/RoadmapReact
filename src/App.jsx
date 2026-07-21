@@ -1,7 +1,12 @@
-function App() {
-  const message = " Hello word";
+import Tasks from "./Components/Tasks";
 
-  return <h1>/{} </h1>;
+function App() {
+  return (
+    <div>
+      <h1>Gerecniador de Tarefas</h1>
+      <Tasks />
+    </div>
+  );
 }
 
 export default App;
