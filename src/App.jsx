@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Header />
+
       <main>
         <Hero />
         <About />
@@ -15,3 +16,5 @@ function App() {
     </>
   );
 }
+
+export default App;
