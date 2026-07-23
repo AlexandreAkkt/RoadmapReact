@@ -1,11 +1,10 @@
-import Tasks from "./Components/Tasks";
+import About from "./Components/About/About.jsx";
 
 function App() {
   return (
-    <div>
-      <h1>Gerecniador de Tarefas</h1>
-      <Tasks />
-    </div>
+    <>
+      <About />
+    </>
   );
 }
 
