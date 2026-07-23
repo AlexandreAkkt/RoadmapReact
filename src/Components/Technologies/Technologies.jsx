@@ -2,10 +2,15 @@ import "./Technologies.css";
 
 function Technologies() {
   return (
-    <Technologies>
-      <h1>Roadmap React</h1>
-    </Technologies>
+    <section id="technologies">
+      <h2>Tecnologias Estudadas</h2>
+
+      <ul>
+        <li>Java</li>
+        <li>React</li>
+      </ul>
+    </section>
   );
 }
 
-export default Header;
+export default Technologies;

@@ -2,8 +2,12 @@ import "./About.css";
 
 function About() {
   return (
-    <section>
-      <h2>Sobre</h2>
+    <section id="about">
+      <h2>Sobre o projeto</h2>
+      <p>
+        Este projeto foi criado para praticar React, componentes, HTML semântico
+        e CSS.
+      </p>
     </section>
   );
 }
