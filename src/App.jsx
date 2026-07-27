@@ -1,18 +1,31 @@
-import Header from "./Components/Header/Header.jsx";
-import Hero from "./Components/Hero/Hero.jsx";
-import About from "./Components/About/About.jsx";
-import Technologies from "./Components/Technologies/Technologies.jsx";
+import "./App.css";
+
+import Header from "./Components/Header/Header";
+import Hero from "./Components/Hero/Hero";
+import About from "./Components/About/About";
+import Journey from "./Components/Journey/Journey";
+import Technologies from "./Components/Technologies/Technologies";
+import Roadmap from "./Components/Roadmap/Roadmap";
+import Projects from "./Components/Projects/Projects";
+import GitHub from "./Components/GitHub/GitHub";
+import Certificates from "./Components/Certificates/Certificates";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Header />
-
-      <main>
-        <Hero />
-        <About />
-        <Technologies />
-      </main>
+      <Hero />
+      <About />
+      <Journey />
+      <Technologies />
+      <Roadmap />
+      <Projects />
+      <GitHub />
+      <Certificates />
+      <Contact />
+      <Footer />
     </>
   );
 }
