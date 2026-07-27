@@ -1,7 +1,9 @@
+import "./Journey.css";
+
 function Journey() {
   return (
-    <section id="Journey">
-      <h2>Journey</h2>
+    <section id="journey">
+      <div className="container"></div>
     </section>
   );
 }
