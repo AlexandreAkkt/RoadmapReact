@@ -1,11 +1,7 @@
 import "./About.css";
 
 function About() {
-  return (
-    <section id="about">
-      <div className="container"></div>
-    </section>
-  );
+  return <section id="about"></section>;
 }
 
 export default About;

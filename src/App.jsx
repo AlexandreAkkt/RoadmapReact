@@ -16,15 +16,19 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Journey />
-      <Technologies />
-      <Roadmap />
-      <Projects />
-      <GitHub />
-      <Certificates />
-      <Contact />
+
+      <main>
+        <Hero />
+        <About />
+        <Technologies />
+        <Roadmap />
+        <Journey />
+        <Projects />
+        <Certificates />
+        <GitHub />
+        <Contact />
+      </main>
+
       <Footer />
     </>
   );
