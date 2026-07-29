@@ -1,8 +1,29 @@
-# React + Vite
+ Roadmap React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para registrar minha evolução nos estudos de desenvolvimento web, com foco em React.
 
-Currently, two official plugins are available:
+A proposta é reunir, em uma única página, as tecnologias que estou estudando, minha trajetória de aprendizado, projetos desenvolvidos, certificados e formas de contato.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Tecnologias utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git
+- GitHub
+
+ Seções do projeto
+
+- Início
+- Sobre
+- Tecnologias
+- Roadmap de estudos
+- Jornada
+- Projetos
+- Certificados
+- GitHub
+- Contato
+
+
