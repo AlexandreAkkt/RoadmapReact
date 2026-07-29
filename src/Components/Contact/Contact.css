@@ -1,0 +1,144 @@
+/* 
+   Seção principal de Contato
+    */
+#contact {
+  padding: 100px 20px;
+
+  /* Cor de fundo azul escuro */
+  background-color: #0f172a;
+}
+
+/* Container que organiza o conteúdo */
+.contact-container {
+  /* Utiliza CSS Grid para dividir a tela */
+  display: grid;
+
+  /* Cria duas colunas com o mesmo tamanho */
+  grid-template-columns: 1fr 1fr;
+
+  /* Centraliza verticalmente os elementos */
+  align-items: center;
+
+  /* Espaço entre as duas colunas */
+  gap: 60px;
+}
+
+/* Subtítulo da seção (Contato)*/
+.contact-content .section-subtitle {
+  /* Cor azul para destacar o subtítulo */
+  color: #38bdf8;
+}
+
+/* Título principal*/
+.contact-content h2 {
+  /* Espaço abaixo do título */
+  margin-bottom: 24px;
+
+  /* Cor branca */
+  color: #ffffff;
+
+  /* Tamanho da fonte */
+  font-size: 42px;
+
+  /* Altura entre linhas */
+  line-height: 1.2;
+}
+
+/* Parágrafos */
+.contact-content p {
+  /* Espaço abaixo de cada parágrafo */
+  margin-bottom: 16px;
+
+  /* Cor cinza clara */
+  color: #cbd5e1;
+
+  /* Tamanho da fonte */
+  font-size: 18px;
+
+  /* Espaçamento entre linhas */
+  line-height: 1.8;
+}
+
+/*
+   Lista de cartões de contat * */
+.contact-links {
+  /* Organiza os cartões em coluna */
+  display: flex;
+
+  /* Direção vertical */
+  flex-direction: column;
+
+  /* Espaço entre os cartões */
+  gap: 18px;
+}
+
+/* Cada cartão (Email, GitHub, etc.) */
+.contact-card {
+  /* Organiza o conteúdo em coluna */
+  display: flex;
+
+  /* Um item abaixo do outro */
+  flex-direction: column;
+
+  /* Espaço entre título e informação */
+  gap: 6px;
+
+  /* Espaçamento interno */
+  padding: 22px 25px;
+
+  /* Cor de fundo */
+  background-color: #1e293b;
+
+  /* Borda cinza */
+  border: 1px solid #334155;
+
+  /* Cantos arredondados */
+  border-radius: 14px;
+
+  /* Remove o sublinhado do link */
+  text-decoration: none;
+
+  /* Faz a animação ficar suave */
+  transition: 0.3s ease;
+}
+
+/* =====================================
+   Efeito quando o mouse passa no cartão
+   ===================================== */
+.contact-card:hover {
+  /* Move o cartão 4px para cima */
+  transform: translateY(-4px);
+
+  /* Muda a cor da borda */
+  border-color: #38bdf8;
+
+  /* Clareia um pouco o fundo */
+  background-color: #263449;
+}
+
+/* =====================================
+   Título do cartão
+   Ex.: GitHub, LinkedIn, Email
+   ===================================== */
+.contact-title {
+  /* Cor azul */
+  color: #38bdf8;
+
+  /* Tamanho da fonte */
+  font-size: 18px;
+
+  /* Texto em negrito */
+  font-weight: 700;
+}
+
+/* =====================================
+   Informação do cartão
+   Ex.: email ou link
+   ===================================== */
+.contact-info {
+  /* Cor branca acinzentada */
+  color: #e2e8f0;
+
+  /* Tamanho da fonte */
+  font-size: 16px;
+}
