@@ -57,6 +57,7 @@ function Technologies() {
               <li>VS Code</li>
               <li>Vite</li>
               <li>NetBeans</li>
+              <li>Intellij</li>
             </ul>
           </div>
         </div>
