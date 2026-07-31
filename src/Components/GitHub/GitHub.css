@@ -1,0 +1,94 @@
+/* Seção Roadmap */
+#roadmap {
+  padding: 100px 20px;
+  background-color: #f8fafc;
+}
+
+/* Container principal */
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* Área do título */
+.roadmap-header {
+  max-width: 750px;
+}
+
+/* Subtítulo */
+.roadmap-header .section-subtitle {
+  color: #38bdf8;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Título */
+.roadmap-header h2 {
+  margin: 20px 0;
+  color: #0f172a;
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+/* Texto */
+.roadmap-header p {
+  color: #475569;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Grid dos cards */
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* Card */
+.roadmap-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 30px 25px;
+  transition: 0.3s ease;
+}
+
+/* Hover */
+.roadmap-card:hover {
+  transform: translateY(-6px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.1);
+}
+
+/* Título do card */
+.roadmap-card h3 {
+  color: #0f172a;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+/* Lista */
+.roadmap-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Itens */
+.roadmap-card li {
+  list-style: none;
+  position: relative;
+  padding-left: 24px;
+  color: #475569;
+  font-size: 17px;
+}
+
+/* Ícone antes dos itens */
+.roadmap-card li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #38bdf8;
+  font-weight: bold;
+}
