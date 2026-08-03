@@ -1,94 +1,102 @@
-/* Seção Roadmap */
-#roadmap {
+#github {
   padding: 100px 20px;
   background-color: #f8fafc;
 }
 
-/* Container principal */
-.roadmap-container {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+.github-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  align-items: center;
+  gap: 70px;
 }
 
-/* Área do título */
-.roadmap-header {
-  max-width: 750px;
-}
-
-/* Subtítulo */
-.roadmap-header .section-subtitle {
-  color: #38bdf8;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-/* Título */
-.roadmap-header h2 {
+.github-content h2 {
   margin: 20px 0;
-  color: #0f172a;
   font-size: 42px;
-  line-height: 1.2;
+  color: #0f172a;
 }
 
-/* Texto */
-.roadmap-header p {
+.github-content p {
+  margin-bottom: 35px;
   color: #475569;
   font-size: 18px;
   line-height: 1.8;
 }
 
-/* Grid dos cards */
-.roadmap-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+.github-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
-/* Card */
-.roadmap-card {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
-  padding: 30px 25px;
-  transition: 0.3s ease;
+.github-button:hover {
+  background: #1d4ed8;
 }
 
-/* Hover */
-.roadmap-card:hover {
-  transform: translateY(-6px);
-  border-color: #38bdf8;
-  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.1);
+.github-card {
+  background: #0f172a;
+  border-radius: 20px;
+  padding: 35px;
+  color: white;
+
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
 }
 
-/* Título do card */
-.roadmap-card h3 {
-  color: #0f172a;
-  font-size: 22px;
-  margin-bottom: 18px;
-}
-
-/* Lista */
-.roadmap-card ul {
+.github-profile {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.github-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #38bdf8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.github-profile h3 {
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+
+.github-profile span {
+  color: #94a3b8;
+}
+
+.github-card p {
+  color: #cbd5e1;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.github-projects {
+  display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
-/* Itens */
-.roadmap-card li {
-  list-style: none;
-  position: relative;
-  padding-left: 24px;
-  color: #475569;
-  font-size: 17px;
-}
-
-/* Ícone antes dos itens */
-.roadmap-card li::before {
-  content: "✔";
-  position: absolute;
-  left: 0;
-  color: #38bdf8;
-  font-weight: bold;
+.github-projects span {
+  padding: 10px 16px;
+  background: #1e293b;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
 }
