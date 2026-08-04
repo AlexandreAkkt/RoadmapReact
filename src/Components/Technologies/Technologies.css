@@ -1,88 +1,84 @@
-/* Seção principal de tecnologias */
+/* Technologies.css */
+
 #technologies {
   padding: 100px 20px;
-  background-color: #ffffff;
+  background-color: #0f172a;
 }
 
-/* Organiza todo o conteúdo da seção */
-.technologies-container {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+#technologies .container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Área do título e descrição */
+/* Cabeçalho da seção */
 .technologies-header {
-  max-width: 750px;
+  text-align: center;
+  margin-bottom: 70px;
 }
 
-/* Título principal */
-.technologies-header h2 {
+.section-subtitle {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: #1e293b;
+  color: #38bdf8;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
   margin-bottom: 20px;
-  color: #0f172a;
+}
+
+.technologies-header h2 {
+  color: #ffffff;
   font-size: 42px;
-  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
-/* Texto de apresentação */
 .technologies-header p {
-  color: #475569;
+  color: #94a3b8;
   font-size: 18px;
-  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
-/* Grade onde ficam os cards */
+/* Grid dos cards */
 .technologies-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
 }
 
-/* Cada card de tecnologia */
+/* Card */
 .technology-card {
-  padding: 30px 25px;
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 16px;
+  background-color: #111827;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 35px 25px;
+  text-align: center;
   transition: 0.3s ease;
 }
 
-/* Efeito ao passar o mouse */
 .technology-card:hover {
   transform: translateY(-6px);
   border-color: #38bdf8;
-  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.1);
 }
 
-/* Título de cada categoria */
+/* Ícone */
+.technology-icon {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+/* Nome da tecnologia */
 .technology-card h3 {
-  margin-bottom: 22px;
-  color: #0f172a;
-  font-size: 23px;
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
-/* Lista de tecnologias */
-.technology-card ul {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+/* Descrição */
+.technology-card p {
+  color: #94a3b8;
+  font-size: 15px;
+  line-height: 1.6;
 }
-
-/* Cada tecnologia da lista */
-.technology-card li {
-  position: relative;
-  padding-left: 24px;
-  color: #475569;
-  font-size: 17px;
-}
-
-/* Símbolo antes de cada tecnologia */
-.technology-card li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  color: #0284c7;
-  font-weight: 700;
-}
-
-/* Responsividade para tablets */
